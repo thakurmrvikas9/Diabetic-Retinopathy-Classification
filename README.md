@@ -54,6 +54,7 @@ diabetic-retinopathy-detection/
 ## 🛠️ Technology Stack
 
 ### Frontend
+
 - **React 18** with TypeScript
 - **Vite** for fast development and building
 - **Tailwind CSS** for styling
@@ -61,6 +62,7 @@ diabetic-retinopathy-detection/
 - **Lucide React** for icons
 
 ### Backend
+
 - **Flask** web framework
 - **TensorFlow/Keras** for model inference
 - **PIL (Pillow)** for image processing
@@ -77,6 +79,7 @@ diabetic-retinopathy-detection/
 ## 🚀 Installation & Setup
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/dasmrpmunna/AI-Skin-Disease-Classification
 cd diabetic-retinopathy-detection
@@ -125,6 +128,7 @@ cp .env.example .env
 ### 4. Model Placement
 
 Place your trained `model.keras` file in the `backend/` directory. The model should be trained to classify the following classes in order:
+
 - Index 0: `No_DR`
 - Index 1: `Moderate`
 - Index 2: `Mild`
@@ -134,22 +138,27 @@ Place your trained `model.keras` file in the `backend/` directory. The model sho
 ## 🏃‍♂️ Running the Application
 
 ### Start Backend Server
+
 ```bash
 cd backend
 python app.py
 ```
+
 The backend will run on `http://localhost:5001`
 
 ### Start Frontend Development Server
+
 ```bash
 cd frontend
 npm run dev
 ```
+
 The frontend will run on `http://localhost:5173`
 
 ## 🔧 Configuration
 
 ### Backend Configuration (.env)
+
 ```env
 MODEL_PATH=model.keras
 API_HOST=0.0.0.0
@@ -159,6 +168,7 @@ CORS_ORIGINS=http://localhost:5173,http://localhost:3000
 ```
 
 ### Frontend Configuration (.env)
+
 ```env
 VITE_API_URL=http://localhost:5001
 ```
@@ -166,12 +176,15 @@ VITE_API_URL=http://localhost:5001
 ## 📡 API Endpoints
 
 ### Health Check
+
 ```
 GET /health
 ```
+
 Returns server status and model loading status.
 
 ### Predict
+
 ```
 POST /predict
 Content-Type: application/json
@@ -187,21 +200,26 @@ Content-Type: application/json
 ```
 
 ### Get Classes
+
 ```
 GET /classes
 ```
+
 Returns information about all supported classification classes.
 
 ## 🏗️ Building for Production
 
 ### Frontend Build
+
 ```bash
 cd frontend
 npm run build
 ```
 
 ### Backend Production
+
 For production deployment, consider using:
+
 - **Gunicorn** as WSGI server
 - **Nginx** as reverse proxy
 - **Docker** for containerization
@@ -209,6 +227,7 @@ For production deployment, consider using:
 ## 🧪 Model Requirements
 
 Your CNN model should:
+
 - Accept input images of size 224x224x3 (RGB)
 - Output predictions for 5 classes in the specified order
 - Be saved in Keras format (.keras file)
@@ -242,6 +261,7 @@ This application is for educational and screening purposes only. It should not b
 ### Support
 
 For issues and questions:
+
 1. Check the troubleshooting section
 2. Review the API documentation
 3. Check server logs for error details
