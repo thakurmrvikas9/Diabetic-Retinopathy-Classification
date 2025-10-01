@@ -81,7 +81,7 @@ diabetic-retinopathy-detection/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/dasmrpmunna/AI-Skin-Disease-Classification
+git clone https://github.com/thakurmrvikas9/Diabetic-Retinopathy-Classification.git
 cd diabetic-retinopathy-detection
 ```
 
