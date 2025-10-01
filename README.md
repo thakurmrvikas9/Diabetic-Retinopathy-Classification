@@ -10,6 +10,7 @@ Welcome to the professional README.md file for the Senior Open-Source Developer 
 - License: MIT
 - Dependencies: None
 
+
 # Guidelines
 This README file provides a detailed guide on the Senior Open-Source Developer Assistant project.
 
