@@ -249,6 +249,7 @@ For issues and questions:
 
 ## 📊 Performance
 
+
 - **Model Accuracy**: 94%
 - **Supported Image Formats**: JPEG, PNG
 - **Maximum Image Size**: 10MB
