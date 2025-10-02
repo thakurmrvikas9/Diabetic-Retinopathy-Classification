@@ -157,10 +157,11 @@ const DetectionTool = () => {
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-transparent"></div>
         <img 
-          src="/images/homepage1.jpg" 
-          alt="Diabetic retinopathy fundus examination"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+            src="/images/homepage1.jpg" 
+            alt="Diabetic retinopathy fundus examination"
+            className="absolute inset-0 w-full h-full object-cover opacity-50"
+          />
+
         <div className="relative z-10 px-8 py-12">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
@@ -367,11 +368,11 @@ const DetectionTool = () => {
                   Ready for Analysis
                 </h2>
               </div>
-              <div className="p-6">
+              <div className="p-4">
                 <div className="text-center text-gray-500 py-8">
                   <div className="relative mb-4">
                     <img 
-                      src="/images/retinal-examination-1.jpg" 
+                      src="/images/homepage2.webp" 
                       alt="Diabetic retinopathy screening"
                       className="h-16 w-16 mx-auto rounded-full object-cover opacity-30"
                     />
@@ -389,11 +390,11 @@ const DetectionTool = () => {
       <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
           <img 
-            src="/images/retinal-screening-1.jpg" 
+            src="/images/image1.jpg" 
             alt="Diabetic retinopathy stages"
-            className="w-full h-48 object-cover"
+            className="w-full h-49 object-cover"
           />
-          <div className="p-6">
+          <div className="p-4">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Understanding Diabetic Retinopathy</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
               Learn about the different stages of diabetic retinopathy and how early detection 
@@ -404,11 +405,11 @@ const DetectionTool = () => {
 
         <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
           <img 
-            src="/images/retinal-examination-1.jpg" 
+            src="/images/home2.avif" 
             alt="Retinal imaging technology"
-            className="w-full h-48 object-cover"
+            className="w-full h-49 object-cover"
           />
-          <div className="p-6">
+          <div className="p-4">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">AI-Powered Analysis</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
               Our advanced machine learning algorithms analyze retinal images with precision 
@@ -419,9 +420,9 @@ const DetectionTool = () => {
 
         <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
           <img 
-            src="/images/ophthalmologist-consultation.jpg" 
+            src="/images/home3.jpg" 
             alt="Ophthalmologist consultation"
-            className="w-full h-48 object-cover"
+            className="w-full h-49 object-cover"
           />
           <div className="p-6">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Professional Consultation</h3>

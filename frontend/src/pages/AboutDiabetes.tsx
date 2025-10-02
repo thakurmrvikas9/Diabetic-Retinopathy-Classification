@@ -42,7 +42,7 @@ const AboutDiabetes = () => {
       <div className="relative bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 rounded-2xl overflow-hidden mb-8">
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <img 
-          src="/images/retinal-screening-1.jpg" 
+          src="/images/understanding.jpg" 
           alt="Diabetic retinopathy fundus examination and research"
           className="absolute inset-0 w-full h-full object-cover opacity-30"
         />
@@ -118,11 +118,11 @@ const AboutDiabetes = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 bg-gray-50">
+            <div className="p-3 bg-gray-50">
               <img 
-                src="/images/retinal-examination-1.jpg" 
+                src="/images/understanding diabetic-retinopathy.jpg" 
                 alt="Diabetic retinopathy screening and monitoring"
-                className="w-full h-48 object-cover rounded-lg shadow-md"
+                className="w-full h-50 object-cover rounded-lg shadow-md"
               />
             </div>
           </div>
@@ -186,9 +186,9 @@ const AboutDiabetes = () => {
             </div>
             <div className="p-6 bg-gray-50">
               <img 
-                src="/images/ophthalmologist-consultation.jpg" 
+                src="/images/image2.webp" 
                 alt="Ophthalmologist examining patient for diabetic retinopathy"
-                className="w-full h-40 object-cover rounded-lg shadow-md"
+                className="w-full h-42 object-cover rounded-lg shadow-md"
               />
             </div>
           </div>
@@ -253,14 +253,14 @@ const AboutDiabetes = () => {
             <div className="p-6 bg-gray-50">
               <div className="grid grid-cols-2 gap-4">
                 <img 
-                  src="/images/retinal-screening-1.jpg" 
+                  src="/images/images4.png" 
                   alt="Diabetic retinopathy prevention through monitoring"
-                  className="w-full h-32 object-cover rounded-lg shadow-md"
+                  className="w-full h-35 object-cover opacity-70 rounded-lg shadow-md"
                 />
                 <img 
-                  src="/images/retinal-examination-1.jpg" 
+                  src="/images/images33.png" 
                   alt="Retinal screening for diabetic complications"
-                  className="w-full h-32 object-cover rounded-lg shadow-md"
+                  className="w-full h-35 object-cover opacity-70 rounded-lg shadow-md"
                 />
               </div>
             </div>
@@ -313,9 +313,9 @@ const AboutDiabetes = () => {
             
             <div className="p-4">
               <img 
-                src="/images/retinal-screening-1.jpg" 
+                src="/images/understanding diabetic-retinopathy.jpg" 
                 alt="Diabetic complications awareness"
-                className="w-full h-32 object-cover rounded-lg shadow-md"
+                className="w-full h-32 object-cover opacity-70 rounded-lg shadow-md"
               />
             </div>
           </div>
