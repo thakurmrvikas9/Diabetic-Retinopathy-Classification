@@ -324,5 +324,4 @@ const AboutDiabetes = () => {
     </div>
   );
 };
-
 export default AboutDiabetes;
